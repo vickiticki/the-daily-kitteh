@@ -12,25 +12,27 @@ h1,
 h2,
 h3 {
   color: slategray;
+  font-family: 'Courier New', Courier, monospace;
 }
 h1 {
   text-align: center;
-}
-.top {
-  background-color: deepskyblue;
-  color: white;
-  padding: 10px 30px;
-}
-
-.bottom {
-  background-color: lightgray;
-  padding: 10px 50px;
+  font-size: 50px;
 }
 .menu {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.top {
+  background-color: deepskyblue;
+  color: white;
+  padding: 10px 80px;
+}
+
+.bottom {
+  background-color: lightgray;
+  padding: 10px 120px;
 }
 .kitteh {
   border: 1px solid deepskyblue;
