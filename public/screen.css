@@ -32,8 +32,15 @@ h1 {
 
 .bottom {
   background-color: lightgray;
-  padding: 20px 120px;
+  padding: 20px 80px;
+  margin: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
 }
+
 .kitteh {
   border: 1px solid deepskyblue;
   padding: 5px;
